@@ -1,0 +1,49 @@
+#File di configurazione per il progetto di Laboratorio di Sistemi Operativi a.a. 2019-20
+#Questo file contiene i parametri necessari per la creazione del Supermercato.
+#Studente: Andrea Boccone		Corso: A		Matricola: 563126
+#
+#I valori temporali sono scritti in millisecondi.
+#
+#K: numero di casse presenti nel supermercato
+#Vincolo: K >= 1
+ 6
+#
+#DESK_AT_START: numero di casse aperte al momento di apertura del supermarket
+#Vincolo: K >= DESK_AT_START >= 0
+ 3
+#
+#C: capienza massima del supermercato
+#Vincolo: C >= 1
+ 50
+#
+#E: numero di clienti che affluiscono contemporaneamente nel supermercato, appena vi è abbastanza spazio libero
+#Vincolo: E <= C
+ 3
+#
+#T: durata massima della fase di acquisto
+#Vincolo: T > MIN_BUY_TIME > 0
+ 200
+#
+#MIN_BUY_TIME: minima durata della fase di acquisto di un cliente
+#Vincolo: T > MIN_BUY_TIME >= 0
+ 10
+#
+#P: numero massimo di prodotti che un cliente può acquistare
+#Vincolo: P > 0
+ 100
+#
+#MAX_TIME_TO_SERVE_CUSTOMER: tempo massimo richiesto dal cassiere per servire un cliente
+#Vincolo: MAX_TIME_TO_SERVE_CUSTOMER > MIN_TIME_TO_SERVE_CUSTOMER >= 0
+ 80
+#
+#MIN_TIME_TO_SERVE_CUSTOMER: Tempo minimo richiesto dal cassiere per servire un cliente
+#Vincolo: MAX_TIME_TO_SERVE_CUSTOMER > MIN_TIME_TO_SERVE_CUSTOMER >= 0
+ 20
+#
+#TIME_PER_ITEM: tempo impiegato dal cassiere per elaborare un singolo oggetto
+#Vincolo: TIME_PER_ITEM > 0
+ 10
+#
+#UPPER_THRESHOLD: soglia di lunghezza della coda, oltre la quale il manager può considerare di aprire un'altra cassa
+#Vincolo: UPPER_THRESHOLD > 0
+ 10
