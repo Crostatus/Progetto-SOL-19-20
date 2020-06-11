@@ -85,7 +85,7 @@ supermercato con i seguenti parametri *(gli altri a scelta dello studente)*:
 - E=3 
 - T=200 
 - P=100 
-- S=20  <br>
+- S=20<br> 
 
 **Dopo 25s viene inviato un segnale SIGHUP**, quindi viene lanciato lo **script Bash di analisi** *(analisi.sh)* che, al
 termine dell’esecuzione del supermercato, fornirà sullo standard output un sunto delle statistiche relative
